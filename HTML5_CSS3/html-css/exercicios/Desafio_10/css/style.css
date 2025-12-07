@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'idroid';
+    src: url(../fontes/idroid.otf), format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #c5ebd6;    
+    background-attachment: fixed;
+    margin: 0px auto;
+}
+header {
+    text-align: center;
+    height: 200px;
+    background-image: linear-gradient(to 
+    bottom, #3bd37f , #2a96, #1a5c38 );
+    color: white;
+    }
+body > nav {
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    background-color: #1a5c38;
+    padding: 10px;
+}
+body > header > h1 {
+    margin: 0px  auto;
+    padding:  30px 10px ;
+    
+}
+body > nav > a {
+    text-decoration: none;
+    color: white;    
+    margin-left: 0px 0px 0px 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+body > nav > a:hover {
+    background-color:  #84e1ad;
+    color: #1a5c38;
+}
+
+
+main {
+    width: 60%;
+    margin: 0px auto;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 5px 5px 15px rgba(26, 92, 56, 0.644);
+    padding: 1em;
+}
+
+main > section > article   h1 {
+    font-family: idroid, Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: #1e6940;
+}
+main > section > article   h2 {
+    font-family: idroid, Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to 
+    right , #8ceeb6,  white );
+    color: #1e6940;
+}
+main > section > article > p {
+    text-indent: 2em;
+    font-weight: 500;
+}
+section {
+    
+}
+.destaque {
+    font-weight: 900;
+    color: #1a5c38;
+    text-decoration: none;
+}
+main > section > article > p a {
+    background-color: #8ceeb6;
+    text-decoration: none;
+    padding: 5px;
+    
+}
+main > section > article > p a::after {
+    content: url(/Desafio_10/imagens/link.png);
+}
+main > section > article > img {
+    margin:  0px auto;
+    display: block;
+}
+main > section > article > picture > img {
+    width: 100%;
+}
+#video {
+    background-color: #1a5c38 ;
+}
+#centralizar {
+    display: block;
+    margin: 0px auto;
+    padding: 40px 0px;
+}
+article > h3 {
+    color: white;
+    background-color: #3bd37f;
+    margin-bottom: 0px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;;
+}
+#lista {
+    
+}
+#versoes {
+    background-color: #8ceeb688;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 0px 0px 10px 10px;
+
+}
+#versoes > p {
+    text-indent: 2em;
+    font-weight: 500;
+    padding: 12px;
+}
+#versoes  .especifico {
+    margin: 0px;
+    padding: 10px;
+}
+#versoes > p > a::after  {
+    content: url(/Desafio_10/imagens/link.png);
+}
+
+ul {
+    display: inline-block;
+    width: 40%;
+}
+.imagemPequena{
+    padding: 0px 10px 0px 0px;
+}
+footer {
+    background-color: #1a5c38;
+    color: white;
+    text-align: center;
+}
+footer > p {
+    margin: 15px 0px 0px 0px;
+    padding: 5px;
+}
+/*
+3bd37f
+
+2a965a
+
+1a5c38
+
+1a5c38
+*/
