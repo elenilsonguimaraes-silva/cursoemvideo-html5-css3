@@ -1,4 +1,4 @@
-# cursoemvideo-html5-css3_modulos-I_e_II
+# cursoemvideo-html5-css3
 Exercícios e Desafios dos módulos I e II do curso html5 do CursoEmVideo
 Visite o site do projeto <a href="https://elenilsonguimaraes-silva.github.io/cursoemvideo-html5-css3/desafios/modulo-01/Desafio_10/" target="_blank"> Historia do Mascote Android</a><br>
 Desafio Cordel Moderno <a href="https://elenilsonguimaraes-silva.github.io/cursoemvideo-html5-css3/desafios/modulo-03/d12/index.html" target="blank"> Cordel Moderno</a> por <a href="https://www.recantodasletras.com.br/poesias/3186743" target="_blank">Milton Duarte</a><br><br>
